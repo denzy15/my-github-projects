@@ -27,13 +27,13 @@ export const GlobalStyles = createGlobalStyle`
   
   .container{
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	background: ${({ theme }) => theme.container};
 	border-radius: 20px;
   }
 
   .main-title{
-	text-align: center;
+	
 	color: ${({ theme }) => theme.textColor}
   }
  
@@ -88,7 +88,7 @@ export const GlobalStyles = createGlobalStyle`
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
+  top: 2px;
   width: 25px;
   height: 25px;
 }
@@ -122,4 +122,128 @@ export const GlobalStyles = createGlobalStyle`
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+.repos-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+}
+
+.repo{
+  flex: 0 1 30%;
+  border: 1px solid #1688f0;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background: ${({ theme }) => theme.container};
+  padding: 5px 20px 10px;
+  min-height: 127px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-name{
+  color: ${({ theme }) => theme.textColor};
+  margin: 0px 0px 5px 0px;
+}
+
+.repo-desc{
+  flex: 1 1 auto;
+  margin: 0px 0px 10px 0px;
+}
+
+.repo-lang{
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: ${({ theme }) => theme.textColor};
+}
+
+.repo-code{
+  border: 1px solid #1688f0;
+  align-self: center;
+   color: ${({ theme }) => theme.secondaryTextColor};
+  padding: 9px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: ${({ theme }) => theme.body}; 
+  transition: all 0.3s linear;
+  box-shadow: 0 0px 5px #1688f0, 0 0px 6px #1688f0;
+  
+}
+.repo-code:hover{
+  background: #1688f0;
+  color: #fafafa;
+}
+
+.searchbar{
+  max-width: 50%;
+  margin: 0 auto 40px;
+}
+
+.searchbar input {
+  padding: 15px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  background: ${({ theme }) => theme.container};
+  border: 2px solid #1688f0;
+  color: ${({ theme }) => theme.secondaryTextColor};
+  outline: none;
+}
+
+.searchbar input::placeholder {
+ color: ${({ theme }) => theme.secondaryTextColor};
+ opacity: 0.6;
+}
+
+@media screen and (max-width: 1250px) {
+  .container{
+    max-width: 760px;
+  }
+  .header{
+    max-width: 760px;
+  }
+  .user-info{
+    padding: 10px 20px;
+    gap: 5%;
+  }
+  .repos{
+    padding: 20px
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 10px 30px;
+  }
+
+  .header{
+    margin: 30px 10px;
+
+  }
+
+  .user-info{
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .repos-list{
+    gap: 5%;
+  }
+  .repo{
+    flex: 0 1 47.5%;
+  }
+  .theme-changer{
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+
  `;
