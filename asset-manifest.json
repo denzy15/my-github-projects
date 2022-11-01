@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/my-github-projects/static/css/main.878389e0.css",
-    "main.js": "/my-github-projects/static/js/main.e0537720.js",
+    "main.js": "/my-github-projects/static/js/main.0f2cb9e6.js",
     "static/media/git.png": "/my-github-projects/static/media/git.7f7be2e416adaf72e816.png",
     "static/media/info.png": "/my-github-projects/static/media/info.b191be26d226947411d1.png",
     "static/media/placeholder.png": "/my-github-projects/static/media/placeholder.0c110d260bc5caa33a37.png",
     "static/media/SCSS.svg": "/my-github-projects/static/media/SCSS.c18b73618200fdf3bb682f1558bcbc88.svg",
+    "static/media/Java.svg": "/my-github-projects/static/media/Java.fa3aaa0d9601f02765fd0f91adf5f205.svg",
+    "static/media/python.svg": "/my-github-projects/static/media/python.b7dca7431ec705868eb4af0c7a3af670.svg",
     "static/media/JavaScript.svg": "/my-github-projects/static/media/JavaScript.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/TypeScript.svg": "/my-github-projects/static/media/TypeScript.d71b1cd7b405ffeae12635f9a8e622b4.svg",
+    "static/media/Csharp.svg": "/my-github-projects/static/media/Csharp.ba5af5c64cc05052890248c28fc38540.svg",
     "static/media/CSS.svg": "/my-github-projects/static/media/CSS.39769a8bd378bf410d6b381a8d88fa35.svg",
     "index.html": "/my-github-projects/index.html",
     "static/media/HTML.svg": "/my-github-projects/static/media/HTML.8664168d5bc90b1a24396f85aadbf623.svg",
-    "main.e0537720.js.map": "/my-github-projects/static/js/main.e0537720.js.map"
+    "main.0f2cb9e6.js.map": "/my-github-projects/static/js/main.0f2cb9e6.js.map"
   },
   "entrypoints": [
     "static/css/main.878389e0.css",
-    "static/js/main.e0537720.js"
+    "static/js/main.0f2cb9e6.js"
   ]
 }
