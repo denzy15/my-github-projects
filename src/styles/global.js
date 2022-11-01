@@ -99,7 +99,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 .user-about h4{
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
   margin: 0px 0px 20px 0px;
 }
 
@@ -160,7 +161,13 @@ export const GlobalStyles = createGlobalStyle`
   color: ${({ theme }) => theme.textColor};
 }
 
-.repo-code{
+.repo-view{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+
+.repo-view-btn{
   border: 1px solid #1688f0;
   align-self: center;
    color: ${({ theme }) => theme.secondaryTextColor};
@@ -173,7 +180,6 @@ export const GlobalStyles = createGlobalStyle`
   background: ${({ theme }) => theme.body}; 
   transition: all 0.3s linear;
   box-shadow: 0 0px 5px #1688f0, 0 0px 6px #1688f0;
-  
 }
 .repo-code:hover{
   background: #1688f0;
